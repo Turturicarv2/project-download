@@ -1,0 +1,6 @@
+@DownloadExample_HostAddress = http://localhost:5125
+
+GET {{DownloadExample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
