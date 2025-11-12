@@ -10,7 +10,7 @@ namespace DownloadExample.Controllers
         [HttpGet]
         public async Task<IActionResult> GetZipFile()
         {
-            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Files/net8.0.zip");
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "Files/simplewebsite.zip");
 
             if (!System.IO.File.Exists(filePath))
                 return NotFound("File not found!");
